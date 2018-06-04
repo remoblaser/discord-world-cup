@@ -13,6 +13,10 @@ exports.run = async (client, message, args) => {
       {
         name: "Ranking",
         value: "wc!ranking - View the current ranking"
+      },
+      {
+        name: "Help",
+        value: "wc!help - Display this help message"
       }
     ]
   }
