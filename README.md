@@ -10,11 +10,14 @@ Add the Bot to your discord server and run `wc!help` to view all commands.
 
 ### Bet
 wc!bet-make <match>   - Make a bet for a match
+
 wc!bet-list           - List your bets"
 
 ### Match
 wc!match-list         - List all matches
+
 wc!match-next         - Show the 6 upcoming matches
+
 wc!match-show <match> - View bets for a match
 
 ### Ranking
