@@ -15,7 +15,7 @@ exports.run = async (client, message, args) => {
     message.reply('this match has already started and betting is closed.')
   }
   else {
-    var message = {
+    var reply = {
       title: flag(match.homeTeam) + " vs. " + flag(match.awayTeam),
       fields: [{
         name: "How to bet",
@@ -25,11 +25,11 @@ exports.run = async (client, message, args) => {
         text: match.id
       }
     }
-    var message = await client.channels.get(config.channel).send({embed: message});
-    await message.react("👈")
-    await message.react("👉")
+    var reply = await client.channels.get(message.channel.id).send({embed: reply});
+    await reply.react("👈")
+    await reply.react("👉")
     if(match.tie_possible) {
-      await message.react("👆")
+      await reply.react("👆")
     }
   }
 }

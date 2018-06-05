@@ -1,6 +1,5 @@
 { 
   "token"  : "MY_DISCORD_BOT_TOKEN",
   "prefix" : "wc!",
-  "database" : "sqlite://./data.sqlite",
-  "channel" : "MY_DISCORD_CHANNEL_ID"
+  "database" : "sqlite://./data.sqlite"
 }

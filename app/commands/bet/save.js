@@ -16,7 +16,7 @@ exports.run = async (client, reaction, discordUser) => {
     message.reply('this match has already started and betting is closed.')
   }
   var bet = await createBet(reaction, user, match)
-  client.channels.get(config.channel).send(bet);
+  client.channels.get(reaction.message.channel.id).send(bet);
 }
 
 
