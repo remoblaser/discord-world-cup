@@ -11,7 +11,7 @@ exports.run = async (client, reaction, discordUser) => {
     user = await createUser(discordUser.id)
   }
 
-  var match = await matchRepository.findOne(reaction.message.footer)
+  var match = await matchRepository.findOne(reaction.message.embeds[0].footer.text)
   if(moment(match.match_start, 'YYYY-MM-DD HH:mm:ss').subtract(2, 'hours').isBefore()) {
     message.reply('this match has already started and betting is closed.')
   }

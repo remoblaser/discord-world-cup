@@ -9,7 +9,7 @@ Add the Bot to your discord server and run `wc!help` to view all commands.
 ## Commands
 
 ### Bet
-wc!bet-make <match>   - Make a bet for a match
+wc!bet-make <match> / wc!bet   - Make a bet for a match
 
 wc!bet-list           - List your bets"
 

@@ -1,0 +1,1 @@
+exports.run = require('./bet/make.js').run
