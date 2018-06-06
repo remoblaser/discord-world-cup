@@ -1,1 +1,1 @@
-exports.run = require('./bet/make.js').run
+exports.run = require('./bet/make').run

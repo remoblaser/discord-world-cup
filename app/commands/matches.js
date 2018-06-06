@@ -1,0 +1,1 @@
+exports.run = require('./match/next').run
