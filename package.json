@@ -1,7 +1,7 @@
 {
   "name": "discord-world-cup",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "main.js",
   "license": "MIT",
   "dependencies": {
     "countrynames": "^0.1.1",
